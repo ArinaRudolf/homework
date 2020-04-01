@@ -1,0 +1,105 @@
+/* start_page.html */
+
+#main_title {
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+#hello {
+  text-align: center;
+  color: #730268;
+  font-size: 20px;
+}
+#main_href {
+  text-decoration: none;
+  color: black;
+}
+
+#box1 {
+  width: 300px;
+  margin: auto;
+  padding: 10px;
+  color: #4A1DA9;
+}
+
+div {
+  background-color: #CECEFC;
+}
+
+li {
+  font-family: cursive;
+  font-size: 16px;
+  }
+
+#sub_title {
+  text-align: center;
+  font-family: cursive;
+}
+
+
+#address{
+  background-color: #FFD3FB;
+  border: 20px solid #791870;
+  padding: 20px;
+  margin: auto;
+  width: 300px;
+  font-size: 20px;
+}
+
+/*страница с указанием стоимости price.html */
+
+#container {
+  background: #E6F1FF;
+  margin: auto;
+}
+
+#caption {
+  color: #D965FA;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+#service {
+  width:500px;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.price {
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #E08AD7;
+}
+tr, th {
+  text-align: left;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+a {
+  font-family: cursive;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+th {
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #FFDEF4;
+}
+.comment {
+  text-align: center;
+  color: #5c45f5;
+  font-family: cursive;
+}
+
+/* authorize.html*/
+
+#author {
+width: 500px;
+background-color: #CECEFC;
+margin: auto;
+margin-top: 10%;
+}
