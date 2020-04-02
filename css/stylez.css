@@ -16,12 +16,6 @@
   color: black;
 }
 
-#box1 {
-  width: 300px;
-  margin: auto;
-  padding: 10px;
-  color: #4A1DA9;
-}
 
 div {
   background-color: #CECEFC;
@@ -37,14 +31,33 @@ li {
   font-family: cursive;
 }
 
+#names {
+  text-align: center;
+}
+.start_table {
+margin:auto;
 
-#address{
+}
+
+#box1 {
+  border-radius: 20px;
   background-color: #FFD3FB;
-  border: 20px solid #791870;
-  padding: 20px;
-  margin: auto;
-  width: 300px;
+  color: #4A1DA9;
+  width: 350px;
   font-size: 20px;
+  color: #4A1DA9;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+/* Я не понимаю, как сделать эти 2 ячейки одинакового размера. В чем дело? почему они разные...? */
+#address{
+  border-radius: 20px;
+  background-color: #FFD3FB;
+  color: #571DD2;
+  width: 350px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
 }
 
 /*страница с указанием стоимости price.html */
@@ -103,3 +116,10 @@ background-color: #CECEFC;
 margin: auto;
 margin-top: 10%;
 }
+
+#new {
+  background-color:#CECEFC;
+  text-align: center;
+  margin-top: 20px;
+
+  }
