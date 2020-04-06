@@ -1,63 +1,65 @@
 /* start_page.html */
+.back {
+  background-color: #E1E2E6;
+}
 
 #main_title {
   text-align: center;
-  font-family: cursive;
-  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25pt;
 }
 
 #hello {
   text-align: center;
-  color: #730268;
-  font-size: 20px;
-}
-#main_href {
-  text-decoration: none;
-  color: black;
+  color: #CC1337;
+  font-size: 20pt;
+  font-family: 'Raleway', sans-serif;
 }
 
-
-div {
-  background-color: #CECEFC;
-}
-
-li {
+li{
   font-family: cursive;
-  font-size: 16px;
+  font-size: 16pt;
   }
 
 #sub_title {
   text-align: center;
-  font-family: cursive;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18pt;
 }
 
-#names {
+h3 {
   text-align: center;
 }
+
+
 .start_table {
 margin:auto;
-
 }
 
 #box1 {
   border-radius: 20px;
-  background-color: #FFD3FB;
   color: #4A1DA9;
   width: 350px;
-  font-size: 20px;
-  color: #4A1DA9;
+  font-size: 16pt;
   padding-left: 20px;
   padding-top: 5px;
+  font-family: 'Raleway', sans-serif;
 }
-/* Я не понимаю, как сделать эти 2 ячейки одинакового размера. В чем дело? почему они разные...? */
+
+#box1 ul {
+  list-style: none;
+}
+#box1 a {
+text-decoration: none;
+}
+
 #address{
   border-radius: 20px;
-  background-color: #FFD3FB;
-  color: #571DD2;
   width: 350px;
-  font-size: 20px;
+  font-size: 16pt;
   padding-left: 20px;
   padding-top: 5px;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*страница с указанием стоимости price.html */
@@ -69,7 +71,7 @@ margin:auto;
 
 #caption {
   color: #D965FA;
-  font-size: 25px;
+  font-size: 25pt;
   font-family: cursive;
 }
 
@@ -82,7 +84,7 @@ margin:auto;
 .price {
   font-family: cursive;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 16pt;
   background-color: #E08AD7;
 }
 tr, th {
@@ -92,14 +94,14 @@ tr, th {
 }
 a {
   font-family: cursive;
-  font-size: 16px;
+  font-size: 16pt;
   text-decoration: none;
   color: black;
 }
 th {
   font-family: cursive;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 16pt;
   background-color: #FFDEF4;
 }
 .comment {
@@ -110,16 +112,136 @@ th {
 
 /* authorize.html*/
 
+.bg {
+  background-color: #FCE5EA;
+  background: url(../pics/bg.jpg) center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#button {
+  background-color:#caddfc;
+}
+
 #author {
 width: 500px;
-background-color: #CECEFC;
 margin: auto;
 margin-top: 10%;
 }
 
 #new {
-  background-color:#CECEFC;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border-top: 10px;
+  border-radius: 10px;
+  }
+
+  /*registration_form*/
+
+  .cursor {
+    cursor: pointer;
+    padding: 10px 10px;
+    color: #fff;
+    background-color: #BCB2F0;
+    font-size: 16pt;
+    width: 300px;
 
   }
+
+  .registration {
+    background-color: #FCE5EA;
+    background: url(../pics/bg.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+ .registration h3 {
+   font-family: 'Raleway', sans-serif;
+   color: #641C43;
+   font-size: 18pt;
+ }
+
+
+.article {
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 20px 20px;}
+
+ .article h4 {
+   text-align: right;
+   font-family: 'Raleway', sans-serif;
+   }
+.article span {
+  font-style: italic;
+}
+#lebel {
+  font-size: 20px;
+  color:#6A0E34;
+}
+
+ .article2 {
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 20px 20px;
+ }
+ .article2 h4 {
+   text-align: right;
+   font-family: 'Raleway', sans-serif;
+ }
+.article2 span {
+color:  #0ED4F9;
+}
+.article2 ul li {
+  font-size: 16pt;
+  color: #0ED4F9;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.info {
+  background-color: #E1E2E6 ;
+}
+
+.info header {
+background: url(../pics/blur.jpg) center center no-repeat;
+text-align: center;
+background-size: cover;
+padding: 15px;
+height:30vh;
+color: #fff;
+width: 100%;
+}
+
+.info h4 {
+  font-family:'Work Sans', sans-serif;
+  font-size: 16pt;
+}
+
+#paragraph {
+  color:#073A16;
+  padding: 0;
+  margin: 0;
+}
+
+.imgleft {
+  float: left;
+  padding-right: 20px;
+}
+.imgright {
+  float:right;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+.table {
+  margin-top: 20px;
+  width: 900px;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+ .table td {
+   text-align: center;
+ }
