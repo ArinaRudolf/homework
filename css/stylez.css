@@ -1,6 +1,9 @@
 /* start_page.html */
+
 .back {
   background-color: #E1E2E6;
+  margin: 0;
+  padding: 0;
 }
 
 #main_title {
@@ -11,15 +14,10 @@
 
 #hello {
   text-align: center;
-  color: #CC1337;
   font-size: 20pt;
   font-family: 'Raleway', sans-serif;
 }
 
-li{
-  font-family: cursive;
-  font-size: 16pt;
-  }
 
 #sub_title {
   text-align: center;
@@ -31,31 +29,71 @@ h3 {
   text-align: center;
 }
 
-
-.start_table {
-margin:auto;
+nav {
+  width: 960px;
+  margin: 0 auto;
 }
 
-#box1 {
-  border-radius: 20px;
-  color: #4A1DA9;
-  width: 350px;
-  font-size: 16pt;
-  padding-left: 20px;
-  padding-top: 5px;
-  font-family: 'Raleway', sans-serif;
+nav::before {
+content: " ";
+display: block;
+height: 50px;
+width: 100%;
+background: #000;
+position: absolute;
+left: 0;
+z-index: -1;
 }
 
-#box1 ul {
-  list-style: none;
+.menu {
+margin: 0;
+padding: 0;
+list-style: none;
+height: 50px;
+
+
 }
-#box1 a {
+.menu li {
+ display: inline-block
+}
+
+.menu li a {
+color: white;
+display: block;
+height: 50px;
+padding: 0 10px;
 text-decoration: none;
+text-transform: uppercase;
+line-height: 50px;
+font-size: 12pt;
+transition-duration: 1s;
 }
 
-#address{
-  border-radius: 20px;
-  width: 350px;
+ ul li a:hover {
+
+  background: #99A2A3;
+}
+/*.box {
+  margin: 0 auto
+  padding: 0;
+}
+.box1 ul li {
+ margin: 0 auto;
+ list-style: none;
+ padding: 5px 10px;
+ background-color: #ffefeb;
+ border-bottom: 2px solid #f2aea5;
+ display: inline-block;
+}
+
+.box1 a {
+text-decoration: none;
+font-family: 'Work Sans', sans-serif;
+font-size: 14pt;
+}*/
+
+#address {
+  width: 380px;
   font-size: 16pt;
   padding-left: 20px;
   padding-top: 5px;

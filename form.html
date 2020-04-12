@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/stylez2.css" rel="stylesheet">
+<title>form</title>
+</head>
+<body class="bg">
+<nav>
+<ul class="menu">
+   <li> <a href="#"> Чем мы занимаемся? </a> </li>
+   <li> <a href="#"> Нас рекомендуют </a></li>
+  <li> <a href="#"> Как с нами связаться? </a> </li>
+  <li> <a href="#"> Ждём лучших </a></li>
+ </ul>
+</nav>
+ <h2> Давайте работать вместе? </h2>
+ <p> Если Вы хотите стать частью нашей команды, пожалуйста, заполните форму ниже. </p>
+<form class="" action="#" method="post">
+  <fieldset>
+   <legend> Ваши данные </legend>
+    <label for="name"> Ваше имя:
+      <input type="text" name="name" placeholder="Имя">
+    </label> <br> <br>
+    <label for="lastname"> Ваша фамилия:
+      <input type="text" name="lastname" placeholder="Фамилия">
+    </label><br><br>
+    <label for="date"> Дата Рождения в формате дд.мм.гггг:
+      <input type="date" name="date" value="01.01.1991" min="1950-01-01" max="2019-01-01">
+    </label> <br><br>
+
+    <p> Укажите Ваш пол: </p> <br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="woman"> женский </label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="man"> мужской </label>
+  </fieldset>
+
+  <fieldset>
+ <legend> Ваши контакты </legend>
+    <label for="phone"> Номер телефона: <input type="phone" name="phone" placeholder="+7 999 123 45 67">  </label> <br> <br>
+    <label for="email"> E-mail: <input type="email" name="email" placeholder="email@email.com"> </label><br> <br>
+    <label for="url"> Ссылка на Вашу страницу ВКонтакте <input type="url" name="url" placeholder="vk.com/id"> </label> <br> <br>
+    <label for="address">
+  </fieldset>
+<fieldset>
+<legend> Образование </legend>
+  <label for="school"> Среднее <input type="radio" name="education"></label> <br>
+  <label for="special"> Средне-специальное <input type="radio" name="education"></label><br>
+  <label for="unfinished"> Неоконченное высшее <input type="radio" name="education"> </label><br>
+  <label for="university"> Высшее <input type="radio" name="education"></label><br>
+  <label for="file"> Пожалуйста, прикрепите скан Вашего аттестата/диплома <input type="file" name="diploma"> </label><br>
+  <p>Есть ли у Вас сертификат, подтверждающий знание иностранного языка? </p>
+  <form>
+    <input type="radio" name="test" id="test_yes">
+    <label for="test_yes"> да  </label><br>
+    <input type="radio" name="test" id="test_no">
+    <label for="test_no"> нет  </label><br>
+  </form> <br>
+<p> Выберите сертификат, который у вас есть </p>
+  <select class="" name="test">
+    <option value="IELTS">IELTS </option>
+    <option value="TOEFL">TOEFL</option>
+    <option value="TestDAF">TestDAF </option>
+    <option value="FCE">FCE</option>
+    <option value="CILS"> CILS </option>
+    <option value="myvar3"> Другое </option>
+  </select>
+</fieldset>
+<fieldset>
+<legend> Привычки</legend>
+<label for="smoking"> Вы курите? <input type="checkbox" name="smoking"> </label>
+<label for="drink"> Вы употребляете алкоголь? <input type="checkbox" name="drink"> </label>
+<label for="fitness"> Вы занимаетесь спортом? <input type="checkbox" name="fitness"> </label>
+
+<p>Как часто Вы употребляете алкоголь?</p>
+<select name="habits">
+  <option value="once_a_week"> раз в неделю </option>
+  <option value="once_a_month"> раз в месяц </option>
+  <option value="on_holidays"> по праздникам</option>
+  <option value="once_a_year"> раз в год</option>
+  <option value="myvar1"> другое </option>
+</select>
+<p> Как часто Вы занимаетесь спортом? </p>
+<select class="" name="sport">
+  <option value="1"> раз в неделю </option>
+  <option value="2_3"> 2-3 раза в неделю </option>
+  <option value="3_4"> 3-4 раза в неделю</option>
+  <option value="7"> каждый день </option>
+  <option value="myvar2"> другое </option>
+</select><br><br>
+<input type="button" value="отправить данные" id="button">
+</fieldset>
+</form>
+</body>
+</html>
